@@ -21,7 +21,7 @@ import java.util.Collection;
 
 @SpringBootApplication
 @EnableConfigurationProperties({ApplicationProperties.class})
-public class CouchExmpApp implements InitializingBean {
+public class  CouchExmpApp implements InitializingBean {
 
     private static final Logger log = LoggerFactory.getLogger(CouchExmpApp.class);
 

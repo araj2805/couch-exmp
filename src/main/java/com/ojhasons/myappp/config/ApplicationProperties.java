@@ -14,7 +14,7 @@ import org.springframework.context.annotation.Configuration;
 //@Configuration
 public class ApplicationProperties {
 
-   /* private Couchbase couchbase;
+    private Couchbase couchbase;
 
     public Couchbase getCouchbase() {
         return couchbase;
@@ -23,47 +23,4 @@ public class ApplicationProperties {
     public void setCouchbase(Couchbase couchbase) {
         this.couchbase = couchbase;
     }
-
-    public static class Couchbase
-    {
-        private String userName;
-
-        private String password;
-
-        private String hostname;
-
-        private String bucket;
-
-        public String getUserName() {
-            return userName;
-        }
-
-        public void setUserName(String userName) {
-            this.userName = userName;
-        }
-
-        public String getPassword() {
-            return password;
-        }
-
-        public void setPassword(String password) {
-            this.password = password;
-        }
-
-        public String getHostname() {
-            return hostname;
-        }
-
-        public void setHostname(String hostname) {
-            this.hostname = hostname;
-        }
-
-        public String getBucket() {
-            return bucket;
-        }
-
-        public void setBucket(String bucket) {
-            this.bucket = bucket;
-        }
-    }*/
 }

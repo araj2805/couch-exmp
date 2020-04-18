@@ -15,9 +15,9 @@
 
 logging:
   level:
-    ROOT: DEBUG
-    io.github.jhipster: DEBUG
-    com.ojhasons.myappp: DEBUG
+    ROOT: INFO
+    io.github.jhipster: INFO
+    com.ojhasons.myappp: INFO
 
 spring:
   profiles:
@@ -35,11 +35,11 @@ spring:
   jackson:
     serialization:
       indent-output: true
-  couchbase:
-    bootstrap-hosts: localhost
-    bucket:
-      name: couchmusic
-      password: password
+#  couchbase:
+#    bootstrap-hosts: localhost
+#    bucket:
+#      name: couchmusic
+#      password: password
   mail:
     host: localhost
     port: 25
@@ -112,3 +112,9 @@ jhipster:
 # ===================================================================
 
 # application:
+application:
+  couchbase:
+    username: developer
+    password: devuser
+    hostname: localhost
+    bucket: couchmusic
